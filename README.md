@@ -16,6 +16,7 @@ The PRAMS (Pregnancy Risk Assessment Monitoring System) network is a division of
 
 ## Data Understanding
 Data Source: https://www.nber.org/research/data/vital-statistics-natality-birth-data 
+
 For data usage restrictions, please visit [this page](https://www.cdc.gov/nchs/data_access/restrictions.htm). 
 
 Due to the importance of maintaining the privacy of the mothers and children whose data was collected in the dataset, it was impossible to access detailed information about their true health outcomes. Therefore, it is necessary to use the APGAR score given 5 minutes after birth as a metric that can approximate the overall health of a child shortly after birth. The [APGAR score](https://www.hopkinsallchildrens.org/Patients-Families/Health-Library/HealthDocNew/What-Is-the-Apgar-Score) is a simple metric that scores five categories between 0 and 2. A higher score generally means that the newborn is more likely to be healthy, and vice-versa. Traditionally, a score of 6 or lower is considered "unhealthy" and medical assistance may be needed to protect the child's life. The target for this analysis will be predicting whether a newborn will have an unhealthy (0-6) APGAR score.
